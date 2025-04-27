@@ -64,6 +64,12 @@
     "vaul": "^0.9.3",
     "zod": "^3.23.8"
   },
+  "scripts": {
+  "dev": "next dev", // or "vite"
+  "build": "next build", // or "vite build"
+  "start": "next start", // (Next.js only)
+  "vercel-build": "next build" // Explicitly for Vercel
+},
   "devDependencies": {
     "@eslint/js": "^9.9.0",
     "@tailwindcss/typography": "^0.5.15",
